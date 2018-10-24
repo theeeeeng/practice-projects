@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "WorkingTimeLog",
+  "version": "0.0.1",
+  "description": "An Extension for logging wokingTime",
+  "icons": {
+    "16": "images/baseline_timelapse_black_18dp.png",
+    "32": "images/baseline_timelapse_black_18dp.png",
+    "48": "images/baseline_timelapse_black_18dp.png",
+    "128": "images/baseline_timelapse_black_18dp.png"
+  },
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "images/baseline_timelapse_white_18dp.png",
+    "default_popup": "popup.html"
+  }
+}
