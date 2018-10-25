@@ -1,5 +1,6 @@
 // popup.html 에서 동작
-let toggleBtn = document.getElementById("toggle");
+const toggleBtn = document.getElementById("toggle");
+
 toggleBtn.addEventListener('click', function() {
     if (toggleBtn.textContent == 'Stop Logging') {
         alert('작업시간 기록을 중지합니다.');
